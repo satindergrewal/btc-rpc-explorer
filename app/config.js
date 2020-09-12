@@ -202,6 +202,9 @@ module.exports = {
 	/* 4 */		{name:"Mempool Summary", url:"/mempool-summary", desc:"Detailed summary of the current mempool for this node.", fontawesome:"fas fa-receipt"},
 	/* 5 */		{name:"Browse Pending Tx", url:"/unconfirmed-tx", desc:"Browse unconfirmed/pending transactions.", fontawesome:"fas fa-unlock"},
 
+	/* 6 */		{name:"RPC Browser", url:"/rpc-browser", desc:"Browse the RPC functionality of this node. See docs and execute commands.", fontawesome:"fas fa-book"},
+	/* 7 */		{name:"RPC Terminal", url:"/rpc-terminal", desc:"Directly execute RPCs against this node.", fontawesome:"fas fa-terminal"},
+
 	/* 8 */		{name:(coins[currentCoin].name + " Fun"), url:"/fun", desc:"See fun/interesting historical blockchain data.", fontawesome:"fas fa-certificate"},
 
 	/* 9 */		{name:"Mining Summary", url:"/mining-summary", desc:"Summary of recent data about miners.", fontawesome:"fas fa-chart-pie"},
@@ -209,10 +212,6 @@ module.exports = {
 	/* 11 */	{name:"Block Analysis", url:"/block-analysis", desc:"Summary analysis for all transactions in a block.", fontawesome:"fas fa-angle-double-down"},
 	/* 12 */	{name:"Difficulty History", url:"/difficulty-history", desc:"Graph of difficulty changes over time.", fontawesome:"fas fa-chart-line"},
 	],
-
-	// /* 6 */		{name:"RPC Browser", url:"/rpc-browser", desc:"Browse the RPC functionality of this node. See docs and execute commands.", fontawesome:"fas fa-book"},
-	// /* 7 */		{name:"RPC Terminal", url:"/rpc-terminal", desc:"Directly execute RPCs against this node.", fontawesome:"fas fa-terminal"},
-
 
 	donations:{
 		// addresses:{
