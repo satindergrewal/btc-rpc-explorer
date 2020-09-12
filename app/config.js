@@ -177,9 +177,9 @@ module.exports = {
 				{
 					title:"Related Sites",
 					links:[
-						{name: "Bitcoin Explorer", url:"https://explorer.btc21.org", imgUrl:"/img/logo/btc.svg"},
-						{name: "Testnet Explorer", url:"https://testnet.btc21.org", imgUrl:"/img/logo/tbtc.svg"},
-						{name: "LND Admin", url:"https://lnd-admin.btc21.org", imgUrl:"/img/logo/lnd-admin.png"},
+						{name: "chips.cash", url:"https://chips.cash/", imgUrl:"/img/logo/chips.png"},
+						{name: "Chips Docs", url:"https://docs.chips.cash/", imgUrl:"/img/logo/chips.png"},
+						{name: "Chips Github", url:"https://github.com/chips-blockchain", imgUrl:"/img/logo/chips.png"},
 						//{name: "Litecoin Explorer", url:"https://ltc.chaintools.io", imgUrl:"/img/logo/ltc.svg"},
 						//{name: "Lightning Explorer", url:"https://lightning.chaintools.io", imgUrl:"/img/logo/lightning.svg"},
 					]
@@ -202,8 +202,8 @@ module.exports = {
 	/* 4 */		{name:"Mempool Summary", url:"/mempool-summary", desc:"Detailed summary of the current mempool for this node.", fontawesome:"fas fa-receipt"},
 	/* 5 */		{name:"Browse Pending Tx", url:"/unconfirmed-tx", desc:"Browse unconfirmed/pending transactions.", fontawesome:"fas fa-unlock"},
 
-	/* 6 */		{name:"RPC Browser", url:"/rpc-browser", desc:"Browse the RPC functionality of this node. See docs and execute commands.", fontawesome:"fas fa-book"},
-	/* 7 */		{name:"RPC Terminal", url:"/rpc-terminal", desc:"Directly execute RPCs against this node.", fontawesome:"fas fa-terminal"},
+	// /* 6 */		{name:"RPC Browser", url:"/rpc-browser", desc:"Browse the RPC functionality of this node. See docs and execute commands.", fontawesome:"fas fa-book"},
+	// /* 7 */		{name:"RPC Terminal", url:"/rpc-terminal", desc:"Directly execute RPCs against this node.", fontawesome:"fas fa-terminal"},
 
 	/* 8 */		{name:(coins[currentCoin].name + " Fun"), url:"/fun", desc:"See fun/interesting historical blockchain data.", fontawesome:"fas fa-certificate"},
 
@@ -214,13 +214,13 @@ module.exports = {
 	],
 
 	donations:{
-		addresses:{
-			coins:["BTC"],
-			sites:{"BTC":"https://explorer.btc21.org"}
-		},
-		btcpayserver:{
-			host:"https://donate.btc21.org"
-		}
+		// addresses:{
+		// 	coins:["BTC"],
+		// 	sites:{"BTC":"https://explorer.btc21.org"}
+		// },
+		// btcpayserver:{
+		// 	host:"https://donate.btc21.org"
+		// }
 	}
 };
 

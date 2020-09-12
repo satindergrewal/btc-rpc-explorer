@@ -92,11 +92,11 @@ html(lang="en")
 										i.fas.fa-search
 
 						ul.navbar-nav
-							li.nav-item.dropdown
-								a.nav-link.dropdown-toggle(href="javascript:void(0)", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") 
-									span  Admin Tools
-								div.dropdown-menu.dropdown-menu-right.shadow(aria-label="Admin Tools Items")
-									a.dropdown-item(href="/admin") Admin Dashboard
+							//- li.nav-item.dropdown
+							//- 	a.nav-link.dropdown-toggle(href="javascript:void(0)", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") 
+							//- 		span  Admin Tools
+							//- 	div.dropdown-menu.dropdown-menu-right.shadow(aria-label="Admin Tools Items")
+							//- 		a.dropdown-item(href="/admin") Admin Dashboard
 
 							li.nav-item.dropdown
 								a.nav-link.dropdown-toggle(href="javascript:void(0)", id="navbarDropdown", role="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") 
@@ -171,16 +171,16 @@ html(lang="en")
 						dl
 							dt Source
 							dd
-								a(href="https://github.com/janoside/btc-rpc-explorer") github.com/janoside/btc-rpc-explorer
+								a(href="https://github.com/satindergrewal/btc-rpc-explorer") github.com/satindergrewal/btc-rpc-explorer
 								
 								if (global.sourcecodeProjectMetadata)
 									div.mt-2
-										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/janoside/btc-rpc-explorer")
+										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/satindergrewal/btc-rpc-explorer")
 											i.fas.fa-star.mr-2
 											span.mr-2 Star 
 											span.badge.bg-white.text-dark #{global.sourcecodeProjectMetadata.stargazers_count}
 
-										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/janoside/btc-rpc-explorer/fork")
+										a.btn.btn-primary.btn-sm.mr-3.mb-1.text-decoration-none(href="https://github.com/satindergrewal/btc-rpc-explorer/fork")
 											i.fas.fa-code-branch.mr-2
 											span.mr-2 Fork 
 											span.badge.bg-white.text-dark #{global.sourcecodeProjectMetadata.forks_count}
@@ -193,7 +193,7 @@ html(lang="en")
 								if (sourcecodeVersion)
 									br
 									span commit: 
-										a(href=("https://github.com/janoside/btc-rpc-explorer/commit/" + sourcecodeVersion)) #{sourcecodeVersion}
+										a(href=("https://github.com/satindergrewal/btc-rpc-explorer/commit/" + sourcecodeVersion)) #{sourcecodeVersion}
 								
 								br
 								span released: #{sourcecodeDate}
