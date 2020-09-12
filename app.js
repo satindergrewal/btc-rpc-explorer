@@ -60,11 +60,6 @@ var snippetActionsRouter = require('./routes/snippetRouter.js');
 
 var app = express();
 
-//Capture All 404 errors
-app.use(function (req,res,next){
-	res.status(404).send('Unable to find the requested resource!');
-});
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 
